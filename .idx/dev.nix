@@ -30,11 +30,6 @@
           id = "android";
           manager = "flutter";
         }
-        {
-          command = ["flutter" "run" "--machine" "-d" "ios" "-d" "localhost:6666"];
-          id = "ios";
-          manager = "flutter";
-        }
       ];
     };
   };
